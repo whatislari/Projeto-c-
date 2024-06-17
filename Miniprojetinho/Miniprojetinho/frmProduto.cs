@@ -57,17 +57,16 @@ namespace Miniprojetinho
         {
             string Vcusto = txtVcusto.Text;
             Vcusto = Vcusto.Replace("R$", "");
-            Vcusto = Vcusto.Replace(".", ",");
+            Vcusto = Vcusto.Replace(",", ".");
             string Vvenda = txtVvenda.Text;
             Vvenda = Vvenda.Replace("R$", "");
-            Vvenda = Vvenda.Replace(".", ",");
+            Vvenda = Vvenda.Replace(",", ".");
 
-            string sql = " set datefromt day insert into produtos" +
-             "(nome_Produto, qtde_Produto, Vcusto_Produto, Vvenda_Produto, obs_Produto)"+
+            string sql = "insert into Produto" +
+             "(nome_Produto,qtde_Produto,Vcusto_Produto,Vvenda_Produto,obs_Produto)" +
              "values" +
-             "(" + "'" + txtNomepro.Text + "'" + "," + "" + txtqtde.Text + " " + ","
-             + " " + Vcusto + " " + "," + " " + Vvenda + " " + "," + "'" + txtObs.Text + "'" + ")" +
-             "select SCOPE_IDENTITY()";
+              "('" + txtNomepro.Text + "'," + txtqtde.Text + "," + Vcusto + "," + Vvenda + ",'" + txtObs.Text + "')" +
+              "Select Scope_identity()";
 
             SqlConnection conexao = new SqlConnection(stringConexao);
             SqlCommand cmd = new SqlCommand(sql, conexao);
@@ -77,10 +76,6 @@ namespace Miniprojetinho
 
             try
             {
-                // int i = cmd.ExecuteNonQuery();
-                //  if (i == 1)
-                //    MessageBox.Show("Cadastro realizado com sucesso!");
-
                 leitura = cmd.ExecuteReader();
 
                 if (leitura.Read())
@@ -112,7 +107,7 @@ namespace Miniprojetinho
         }
         private void btoAlterarpro_Click(object sender, EventArgs e)
         {
-            string sql = "update produtos set"+
+            string sql = "update Produto set" +
                  "nome_Produto ='" + txtNomepro.Text + "'," +
                  "qtde_Produto =" + txtqtde.Text + "," +
                  "Vcusto_Produto =" +txtVcusto.Text + "," +
@@ -148,7 +143,7 @@ namespace Miniprojetinho
 
         private void btoExcluirpro_Click(object sender, EventArgs e)
         {
-            string sql = "delete from produtos where ID_Produto =" +txtCodigopro.Text ;
+            string sql = "delete from Produto where ID_Produto =" +txtCodigopro.Text ;
 
             SqlConnection conexao = new SqlConnection(stringConexao);
             SqlCommand cmd = new SqlCommand(sql, conexao);
@@ -182,7 +177,7 @@ namespace Miniprojetinho
 
         private void btopesquisa_Click(object sender, EventArgs e)
         {
-            string sql = "select * from produtos where ID_Produto =" + txtCodigopro.Text;
+            string sql = "select * from Produto where ID_Produto =" + txtCodigopro.Text;
 
             SqlConnection conexao = new SqlConnection(stringConexao);
             SqlCommand cmd = new SqlCommand(sql, conexao);
@@ -248,6 +243,11 @@ namespace Miniprojetinho
                 txtVvenda.Text = "";
             }
             txtVvenda.Text = txtVvenda.Text.Replace("R$", "");
+        }
+
+        private void frmProduto_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

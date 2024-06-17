@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dve6e0UkCLhtedh+bY17VX1rCEYx4+kHOcnRCNHL+A0Wkng599PS5g4sa49RCu/bEJkBCkuKzWxYy592uKjjKQ==",
+  "dgSpecHash": "eHnVGPEsaUhbw3pN+Jh7I2IDZoAXzs25mkxBtLcCn3RR3qWwe0xZPEcBtrnmVr4wyBJXCLMU+jZu+OrCOIuNbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\laricia.rfnascimento\\source\\repos\\Miniprojetinho\\Miniprojetinho\\Miniprojetinho.csproj",
+  "projectFilePath": "\\\\10.37.40.191\\fac-turmas\\Cursos Tecnicos\\TECNOLOGIA DA INFORMAÇÃO\\Cursos Técnicos - TI\\T14\\Laricia\\Miniprojetinho\\Miniprojetinho\\Miniprojetinho.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\laricia.rfnascimento\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\laricia.rfnascimento\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

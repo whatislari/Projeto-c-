@@ -120,7 +120,7 @@ namespace Miniprojetinho
             "telefone3_Funcionario='" + txttel3.Text + "'," +
             "obs_Funcionario='" + txtObs.Text + "'," +
             "status_Funcionario='" + cboStatusfun.Text + "' " +
-            "where ID_Funcionario='" + txtpesquisafun.Text;
+            "where ID_Funcionario=" + txtpesquisafun.Text;
 
 
             SqlConnection conexao = new SqlConnection(stringConexao);
@@ -155,14 +155,15 @@ namespace Miniprojetinho
             {
                 MessageBox.Show("Erro, os dados precisam ser inseridos corretamente!");
             }
-            string sql = "insert into Funcionario (nome_funcionario,nasc_funcionario,cpf_funcionario,logradouro_funcionario,numero_funcionario," +
-            "comp_funcionario, cep_funcionario, bairro_funcionario,cidade_funcionario, uf_funcionario," +
-            "telefone1_funcionario, telefone2_funcionario,telefone3_funcionario, obs_funcionario)" +
-            "values" +
-            "(" + "'" + txtNomefun.Text + "'" + "," + "" + txtDatanasc.Text + "" + "," + "" + txtcpf.Text + "" + "," + "'" + txtLogradouro.Text + "'" + ","
-            + "" + txtN.Text + "" + "," + "'" + txtComplemento.Text + "'" + "," + "" + txtcep.Text + "" + "," + "'" + txtBairro.Text + "'" + "," + "'" + txtCidade.Text +
-            "'" + "," + "'" + cboUF.Text + "'" + "," + "" + txttel1.Text + "" + "," + "" + txttel2.Text + "" + "," + "" + txttel3.Text + "" +
-            "," + "'" + txtObs.Text + "'" + ")" + "select SCOPE_IDENTITY()";
+            string sql = "insert into Funcionario (nome_funcionario,nasc_funcionario,cpf_funcionario,logradouro_funcionario," +
+                "numero_funcionario,comp_funcionario, cep_funcionario, bairro_funcionario,cidade_funcionario, uf_funcionario," +
+                "telefone1_funcionario, telefone2_funcionario,telefone3_funcionario,obs_funcionario, status_funcionario)" +
+                "values" +
+                "('" + txtNomefun.Text + "','" + txtDatanasc.Text + "','" + txtcpf.Text + "','" + txtLogradouro.Text + "'," +
+                "'" + txtN.Text + "','" + txtComplemento.Text + "','" + txtcep.Text + "','" + txtBairro.Text + "','" + txtCidade.Text + "'," +
+                "'" + cboUF.Text + "','" + txttel1.Text + "','" + txttel2.Text + "'" + "','" + txttel3.Text + "'," +
+                "'" + txtObs.Text + "','" + cboStatusfun.Text + "'" + ")" +
+                "select SCOPE_IDENTITY()";
 
 
             SqlConnection conexao = new SqlConnection(stringConexao);
@@ -174,12 +175,6 @@ namespace Miniprojetinho
 
             try
             {
-                //int i = cmd.ExecuteNonQuery();
-                //if (i == 1)
-                //{
-                // MessageBox.Show("Cadastro realizado com sucesso!");
-                // }
-
                 leitura = cmd.ExecuteReader();
 
                 if (leitura.Read())
@@ -231,9 +226,8 @@ namespace Miniprojetinho
                     cboUF.Text = leitura[10].ToString();
                     txttel1.Text = leitura[11].ToString();
                     txttel2.Text = leitura[12].ToString();
-                    txttel3.Text = leitura[13].ToString();
-                    txtObs.Text = leitura[14].ToString();
-                    cboStatusfun.Text = leitura[15].ToString();                                      
+                    txtObs.Text = leitura[13].ToString();
+                    cboStatusfun.Text = leitura[14].ToString();                                      
                 }
                 else
                 {
@@ -250,6 +244,6 @@ namespace Miniprojetinho
             }
         }
 
-
+ 
     }
 }

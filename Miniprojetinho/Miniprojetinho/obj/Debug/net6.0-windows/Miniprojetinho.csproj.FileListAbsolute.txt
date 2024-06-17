@@ -28,3 +28,71 @@ C:\Users\laricia.rfnascimento\source\repos\Miniprojetinho\Miniprojetinho\obj\Deb
 C:\Users\laricia.rfnascimento\source\repos\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmLocalEstoque.resources
 C:\Users\laricia.rfnascimento\source\repos\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.Properties.Resources.resources
 C:\Users\laricia.rfnascimento\source\repos\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.MDITelas.resources
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\Miniprojetinho.exe
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\Miniprojetinho.deps.json
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\Miniprojetinho.runtimeconfig.json
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\Miniprojetinho.dll
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\Miniprojetinho.pdb
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.csproj.AssemblyReference.cache
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmforn.resources
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmfuncio.resources
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmItemEstoque.resources
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmLocalEstoque.resources
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmLogin.resources
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmusuario.resources
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmmovi.resources
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmOS.resources
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmProduto.resources
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.MDITelas.resources
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.Properties.Resources.resources
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.csproj.GenerateResource.cache
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.AssemblyInfoInputs.cache
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.AssemblyInfo.cs
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.csproj.CoreCompileInputs.cache
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.csproj.CopyComplete
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.dll
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\refint\Miniprojetinho.dll
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.pdb
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.genruntimeconfig.cache
+C:\Users\laricia.rfnascimento\source\repos\Projeto-c-\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\ref\Miniprojetinho.dll
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\Miniprojetinho.exe
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\Miniprojetinho.deps.json
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\Miniprojetinho.runtimeconfig.json
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\Miniprojetinho.dll
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\Miniprojetinho.pdb
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.csproj.AssemblyReference.cache
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmforn.resources
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmfuncio.resources
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmItemEstoque.resources
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmLocalEstoque.resources
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmLogin.resources
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmusuario.resources
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmmovi.resources
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmOS.resources
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.frmProduto.resources
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.MDITelas.resources
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.Properties.Resources.resources
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.csproj.GenerateResource.cache
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.GeneratedMSBuildEditorConfig.editorconfig
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.AssemblyInfoInputs.cache
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.AssemblyInfo.cs
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.csproj.CoreCompileInputs.cache
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.csproj.CopyComplete
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.dll
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\refint\Miniprojetinho.dll
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.pdb
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\Miniprojetinho.genruntimeconfig.cache
+\\10.37.40.191\fac-turmas\Cursos Tecnicos\TECNOLOGIA DA INFORMAÇÃO\Cursos Técnicos - TI\T14\Laricia\Miniprojetinho\Miniprojetinho\obj\Debug\net6.0-windows\ref\Miniprojetinho.dll

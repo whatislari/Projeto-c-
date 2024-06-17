@@ -11,52 +11,76 @@ using System.Data.SqlClient;
 
 namespace Miniprojetinho
 {
-    public partial class frmLocalEstoque : Form
+    public partial class frmOS : Form
     {
-        string stringConexao = "" +
-            "Data Source = localhost ;" +
-            "Initial Catalog=T14_Estoque;" +
-            "User ID=sa;" +
-            "Password=123456";
+        public frmOS()
+        {
+            InitializeComponent();
+        }
 
+        string stringConexao = MDITelas.stringConexao;
         private void TestarConexao()
         {
-            SqlConnection conn = new SqlConnection(stringConexao);
+            SqlConnection conexao = new SqlConnection(stringConexao);
 
             try
             {
-                conn.Open();
-                conn.Close();
+                conexao.Open();
+                conexao.Close();
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Erro: " + ex.ToString());
-                Application.Exit();
             }
 
         }
-        private void btoSair_Click(object sender, EventArgs e)
+
+        private void frmOS_Load(object sender, EventArgs e)
         {
-           this.Close();
+            TestarConexao();
+            CarregarOS();
+        }
+        private void CarregarOS()
+        {
+            string sql = "select id_produto, nome_produto from produto";
+
+            SqlConnection conexao = new SqlConnection(stringConexao);
+            SqlCommand cmd = new SqlCommand(sql, conexao);
+            cmd.CommandType = CommandType.Text;
+            SqlDataReader leitura;
+
+            DataTable tabela = new DataTable();
+
+            conexao.Open();
+
+            try
+            {
+                leitura = cmd.ExecuteReader();
+
+                tabela.Load(leitura);
+
+                cboIDproduto.DisplayMember = "id_produto";
+                cboIDproduto.DataSource = tabela;
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro " + ex.ToString());
+            }
+            finally
+            {
+                conexao.Close();
+            }
         }
 
-         public frmLocalEstoque()
-         {
-            InitializeComponent();
-
-         }
-
-        private void btoLimpar_Click(object sender, EventArgs e)
+        private void btoSair_Click(object sender, EventArgs e)
         {
-            txtCodigo.Text = "";
-            txtnomeloc.Text = "";
-            cboStatus.SelectedIndex = -1;
-            txtobsloc.Text = "";
+            this.Close();
         }
 
         private void btoExcluir_Click(object sender, EventArgs e)
         {
-            string sql = "delete from LocalEstoque where id_LocalEstoque =" + txtCodigo.Text;
+            string sql = "delete from os where id_os =" + txtCodigo.Text;
 
             SqlConnection conexao = new SqlConnection(stringConexao);
             SqlCommand cmd = new SqlCommand(sql, conexao);
@@ -86,13 +110,24 @@ namespace Miniprojetinho
             }
         }
 
+        private void btoLimpar_Click(object sender, EventArgs e)
+        {
+            txtCodigo.Text = "";
+            txtDATA.Text = "";
+            txtObs.Text = "";
+            txtqtde.Text = "";
+            cboIDproduto.Text = "";
+            cboStatus.SelectedIndex = -1;
+        }
+
         private void btoAlterar_Click(object sender, EventArgs e)
         {
-            string sql = "update LocalEstoque set" +
-             "nome_LocalEstoque='" + txtnomeloc.Text + "'," +
-             "obs_LocalEstoque='" + txtobsloc.Text + "'," +
-             "status_LocalEstoque='" + cboStatus.Text + "' " +
-             "where id_LocalEstoque='" + txtCodigo.Text;
+            string sql = "update os set" +
+             "ID_Produto_os='" + cboIDproduto.Text + "'," +
+             "qtde_os'" + txtqtde.Text + "',"+
+             "obs_os='" + txtObs.Text + "'," +
+             "status_os='" + cboStatus.Text + "' " +
+             "where id_os='" + txtCodigo.Text;
 
             SqlConnection conexao = new SqlConnection(stringConexao);
             SqlCommand cmd = new SqlCommand(sql, conexao);
@@ -120,16 +155,15 @@ namespace Miniprojetinho
 
         private void btoCadastrar_Click(object sender, EventArgs e)
         {
-            if (txtnomeloc.Text == "")
+            if (cboIDproduto.Text == "" || txtqtde.Text == "")
             {
                 MessageBox.Show("Erro, os dados precisam ser inseridos corretamente!");
             }
-
-            string sql = "insert into LocalEstoque " +
-                "(nome_LocalEstoque,obs_LocalEstoque,status_LocalEstoque)" +
+            string sql = "insert into os " +
+                "(ID_Produto_os,qtde_os,obs_os,status_os)" +
                 "values" +
-                "(" + "'" + txtnomeloc.Text + "'" + "," + "'" + txtobsloc.Text + "'" + ","
-                +"'" + cboStatus.Text + "'" + ")" +
+                "(" + "'" + cboIDproduto.Text + "'" + "," + "'" + txtqtde.Text + "'" + ","
+                + "'" + txtObs.Text + "'" + "," + "'" + cboStatus.Text + "'" + ")" +
                 " select SCOPE_IDENTITY()";
 
             //('xxx','yyy','zzz')   "(" + "'" + xxx.text + "'" ","+ "'" + yyy.text + "'" ","+ zzz.text + "'" + ")"
@@ -139,10 +173,18 @@ namespace Miniprojetinho
             SqlCommand cmd = new SqlCommand(sql, conexao);
             cmd.CommandType = CommandType.Text;
             SqlDataReader leitura;
+
+
             conexao.Open();
 
             try
             {
+                //int i = cmd.ExecuteNonQuery();
+                //if (i == 1)
+                //{
+                // MessageBox.Show("Cadastro realizado com sucesso!");
+                // }
+
                 leitura = cmd.ExecuteReader();
 
                 if (leitura.Read())
@@ -152,49 +194,14 @@ namespace Miniprojetinho
                     txtCodigo.Text = leitura[0].ToString();
                     MessageBox.Show("Cadastro realizado com sucesso");
 
-                    btopesquisa.PerformClick();
+                    btopesquisar.PerformClick();
                 }
             }
+
+
             catch (Exception ex)
             {
                 MessageBox.Show("Erro," + ex.ToString());
-            }
-            finally
-            {
-                conexao.Close();
-            }
-        }
-
-        private void btopesquisa_Click(object sender, EventArgs e)
-        {
-            string sql = "select * from LocalEstoque where id_LocalEstoque =" + txtCodigo.Text;
-
-            SqlConnection conexao = new SqlConnection(stringConexao);
-            SqlCommand cmd = new SqlCommand(sql, conexao);
-            cmd.CommandType = System.Data.CommandType.Text;
-            SqlDataReader leitura;
-
-
-            conexao.Open();
-
-            try
-            {
-                leitura = cmd.ExecuteReader();
-                if (leitura.Read())
-                {
-                    txtnomeloc.Text = leitura[0].ToString();
-                    txtobsloc.Text = leitura[1].ToString();
-                    cboStatus.Text = leitura[2].ToString();
-                    txtCodigo.Text = leitura[3].ToString();
-                }
-                else
-                {
-                    MessageBox.Show("Codigo de Estoque inexistente!");
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
             }
             finally
             {

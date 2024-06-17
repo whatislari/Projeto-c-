@@ -97,6 +97,7 @@
             this.btopesquisa.Text = "...";
             this.btopesquisa.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.btopesquisa.UseVisualStyleBackColor = true;
+            this.btopesquisa.Click += new System.EventHandler(this.btopesquisa_Click);
             // 
             // label1
             // 
@@ -203,6 +204,7 @@
             this.btoLimpar.TabIndex = 17;
             this.btoLimpar.Text = "&Limpar";
             this.btoLimpar.UseVisualStyleBackColor = true;
+            this.btoLimpar.Click += new System.EventHandler(this.btoLimpar_Click);
             // 
             // btoExcluir
             // 
@@ -213,6 +215,7 @@
             this.btoExcluir.TabIndex = 16;
             this.btoExcluir.Text = "&Excluir";
             this.btoExcluir.UseVisualStyleBackColor = true;
+            this.btoExcluir.Click += new System.EventHandler(this.btoExcluir_Click);
             // 
             // btoAlterar
             // 
@@ -223,6 +226,7 @@
             this.btoAlterar.TabIndex = 15;
             this.btoAlterar.Text = "&Alterar";
             this.btoAlterar.UseVisualStyleBackColor = true;
+            this.btoAlterar.Click += new System.EventHandler(this.btoAlterar_Click);
             // 
             // btoCadastrar
             // 
@@ -233,6 +237,7 @@
             this.btoCadastrar.TabIndex = 14;
             this.btoCadastrar.Text = "&Cadastrar";
             this.btoCadastrar.UseVisualStyleBackColor = true;
+            this.btoCadastrar.Click += new System.EventHandler(this.btoCadastrar_Click);
             // 
             // groupBox4
             // 

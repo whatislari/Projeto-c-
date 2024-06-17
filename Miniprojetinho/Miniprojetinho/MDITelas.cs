@@ -12,6 +12,17 @@ namespace Miniprojetinho
 {
     public partial class MDITelas : Form
     {
+        public static string stringConexao = "" +
+        "Data Source=localhost;" +
+        "Initial Catalog=T14_Estoque;" +
+        "User ID=sa;" +
+        "Password=123456";
+
+        public static string idUsuario;
+        public static string nomeUsuario;
+        public static string loginUsuario;
+
+
         private int childFormNumber = 0;
 
         public MDITelas()
@@ -100,6 +111,69 @@ namespace Miniprojetinho
             {
                 childForm.Close();
             }
+        }
+
+        private void MDITelas_Load(object sender, EventArgs e)
+        {
+          
+            frmLogin frm = new frmLogin();
+            frm.ShowDialog();
+  
+        }
+        private void usuarioToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmusuario frm = new frmusuario();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void produtosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmProduto frm = new frmProduto();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void localEstoqueToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLocalEstoque frm = new frmLocalEstoque();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void funcionariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmfuncio frm = new frmfuncio();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void fornecedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmforn frm = new frmforn();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void movimentaçãoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmmovi frm = new frmmovi();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void itemEstoqueToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmItemEstoque frm = new frmItemEstoque();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void ordemDeServiçoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmOS frm = new frmOS();
+            frm.MdiParent = this;
+            frm.Show();
         }
     }
 }

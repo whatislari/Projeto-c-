@@ -48,12 +48,12 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtVvenda = new System.Windows.Forms.TextBox();
+            this.txtqtde = new System.Windows.Forms.TextBox();
             this.txtVcusto = new System.Windows.Forms.TextBox();
             this.txtNomepro = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txtObs = new System.Windows.Forms.TextBox();
-            this.txtqtde = new System.Windows.Forms.TextBox();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -268,6 +268,14 @@
             this.txtVvenda.TabIndex = 4;
             this.txtVvenda.Enter += new System.EventHandler(this.txtVvenda_Enter);
             // 
+            // txtqtde
+            // 
+            this.txtqtde.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtqtde.Location = new System.Drawing.Point(230, 47);
+            this.txtqtde.Name = "txtqtde";
+            this.txtqtde.Size = new System.Drawing.Size(91, 29);
+            this.txtqtde.TabIndex = 3;
+            // 
             // txtVcusto
             // 
             this.txtVcusto.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -313,14 +321,6 @@
             this.txtObs.Size = new System.Drawing.Size(631, 89);
             this.txtObs.TabIndex = 2;
             // 
-            // txtqtde
-            // 
-            this.txtqtde.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtqtde.Location = new System.Drawing.Point(230, 47);
-            this.txtqtde.Name = "txtqtde";
-            this.txtqtde.Size = new System.Drawing.Size(91, 29);
-            this.txtqtde.TabIndex = 3;
-            // 
             // frmProduto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -333,6 +333,7 @@
             this.Controls.Add(this.groupBox3);
             this.Name = "frmProduto";
             this.Text = "frmProduto";
+            this.Load += new System.EventHandler(this.frmProduto_Load);
             this.groupBox3.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
